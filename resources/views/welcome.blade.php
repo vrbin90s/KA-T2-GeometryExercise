@@ -42,9 +42,9 @@
                     <h4 style="color: white;">Rectangle, Square, Circle & Rhombus shape Area and Perimeter results can be seen using views below:</h4>
                     <ul style="color: white; list-style: none;">
                         <li><a onmouseover="this.style.color='#44c8ae'"  onmouseout="this.style.color='white'" href="/square">Square (/square)</a></li>
-                        <li><a onmouseover="this.style.color='#44c8ae'"  onmouseout="this.style.color='white'" href="/rectangle">Rectangle (/square)</a></li>
-                        <li><a onmouseover="this.style.color='#44c8ae'"  onmouseout="this.style.color='white'" href="/circle">Circle (/square)</a></li>
-                        <li><a onmouseover="this.style.color='#44c8ae'"  onmouseout="this.style.color='white'" href="/rhombus">Rhombus (/square)</a></li>
+                        <li><a onmouseover="this.style.color='#44c8ae'"  onmouseout="this.style.color='white'" href="/rectangle">Rectangle (/rectangle)</a></li>
+                        <li><a onmouseover="this.style.color='#44c8ae'"  onmouseout="this.style.color='white'" href="/circle">Circle (/circle)</a></li>
+                        <li><a onmouseover="this.style.color='#44c8ae'"  onmouseout="this.style.color='white'" href="/rhombus">Rhombus (/rhombus)</a></li>
                     </ul>
 
                 </div>
