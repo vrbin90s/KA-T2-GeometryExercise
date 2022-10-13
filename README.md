@@ -6,8 +6,8 @@ This is Geometry Task Exercise. This will calculate various shapes area and peri
 1. Clone / Download repository - https://github.com/vrbin90s/KiloAcademy-Geometry-Exercise.git
 2. In your terminal run composer install command:
    ``composer install``
-3. Rename .env.example file to .env
-4. Generate php artisan command to generate a new key:
+3. Rename .env.example file to .env or copy example content to your empty .env file
+4. Generate your new application encryption key using artisan command:
    ``php artisan key:generate``
 5. Run project with artisan command:
 6. ``php artisan run serve``
