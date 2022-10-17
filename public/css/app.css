@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    background: #1A202C;
+    color: #fff;
+}
+.nav-row-wrapper {
+ padding-bottom: 60px;
+}
+.main-form {
+    padding: 60px 40px;
+    width: 50%;
+    background: #44c8ae;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.nav-btn-wrapper {
+    padding: 0;
+}
+
+.nav-btn-wrapper > .btn {
+    border-radius: 0;
+}
+
+ul li {
+    margin-top:  5px;
+}
+
+.btn {
+    width: 100%;
+    padding: 15px 20px;
+}
+
+.nav > li {
+    display: inline-block;
+    width: auto;
+}
+
+.go-back-link a {
+    text-decoration: none;
+    color: #fff;
+    line-height: 15px;
+    font-size: 15px;
+    border: 1px solid #fff;
+    padding: 10px 20px;
+    transition: all 300ms ease-out;
+}
+
+.go-back-link a:hover {
+    color: #000;
+    border: 1px solid #000;
+}
+
+.text-box {
+    display: block;
+}
+
+.title {
+    display: block;
+    position: absolute;
+    text-align: center;
+    top: 20%;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+}
+
+.active {
+    background: #3C153B !important;
+    color: #fff !important;
+
+}
+
+.btn-primary {
+    background: #623CEA !important;
+    outline: none !important;
+    border: none !important;
+    border-radius: 0 !important;
+}
+
+.btn-primary:hover {
+    background: #3814B8 !important;
+}
+
+
+
+
+
+
+

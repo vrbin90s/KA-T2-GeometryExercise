@@ -1,6 +1,8 @@
 <?php
 
-namespace App\Interfaces\Shape;
+namespace App\Services\GeometryCalculator\ShapesModels;
+
+use App\Services\GeometryCalculator\ShapeInterface;
 
 class Square implements ShapeInterface
 {
@@ -11,12 +13,12 @@ class Square implements ShapeInterface
         $this->length = $length;
     }
 
-    public function area(): float
+    public function calculateShapeArea(): float
     {
         return pow($this->length, 2);
     }
 
-    public function perimeter(): float
+    public function calculateShapePerimeter(): float
     {
         return 2 * pow($this->length, 2);
     }

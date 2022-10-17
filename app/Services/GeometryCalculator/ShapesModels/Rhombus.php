@@ -1,6 +1,8 @@
 <?php
 
-namespace App\Interfaces\Shape;
+namespace App\Services\GeometryCalculator\ShapesModels;
+
+use App\Services\GeometryCalculator\ShapeInterface;
 
 class Rhombus implements ShapeInterface
 {
@@ -13,12 +15,12 @@ class Rhombus implements ShapeInterface
         $this->base = $base;
     }
 
-    public function area(): float
+    public function calculateShapeArea(): float
     {
         return $this->height * $this->base;
     }
 
-    public function perimeter(): float
+    public function calculateShapePerimeter(): float
     {
         return $this->base * 4;
     }

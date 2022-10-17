@@ -24,12 +24,12 @@
         "laravel/sail": "^1.0.1",
         "mockery/mockery": "^1.4.4",
         "nunomaduro/collision": "^6.1",
-        "phpunit/phpunit": "^9.5.10",
+        "phpunit/phpunit": "^9.5",
         "spatie/laravel-ignition": "^1.0"
     },
     "autoload": {
         "psr-4": {
-            "KesDev\\GeometryExercise\\": "app/Interfaces/Shape/",
+            "KesDev\\GeometryExercise\\": "app/Services/GeometryCalculator/",
             "App\\": "app/",
             "Database\\Factories\\": "database/factories/",
             "Database\\Seeders\\": "database/seeders/"
@@ -37,11 +37,11 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Tests\\": "tests/",
-            "KesDev\\GeometryExercise\\": "app/Tests/"
+            "Tests\\": "tests/"
         }
     },
     "scripts": {
+
         "post-autoload-dump": [
             "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
             "@php artisan package:discover --ansi"
