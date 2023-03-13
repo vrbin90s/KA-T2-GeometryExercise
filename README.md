@@ -1,4 +1,4 @@
-### Kilo Academy - Task 2: Geometry Exercise
+### Geometry Exercise
 This is Geometry Task Exercise. This will calculate various shapes area and perimeter which is currently set to default values in their relevant classes. It uses Shape interface and shape classes with open closed principles.
 
 ### Install
